@@ -1,4 +1,5 @@
 #.join() keyword uses in case of tuple, list and dict
+#usecase : Converting list into string
 
 myTuple = ("John", "Peter", "Vicky")
 myList = ["John", "Peter", "Vicky"]
