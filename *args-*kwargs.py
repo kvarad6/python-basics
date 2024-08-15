@@ -35,3 +35,17 @@ combiFunction(*args)
 
 kwargs = {"firstArg":"firstArg", "secondArg":"secondArg", "thirdArg":"thirdArg"}
 combiFunction(**kwargs)
+
+#----------------------------------
+#Example:
+#*args, **kwargs
+
+def randomName(*args, **kwargs):
+    print(args)
+    print(kwargs)
+    if "role" in kwargs:
+        print(f"{kwargs['role']} is my role")
+    
+randomName((1,2,3,4, 5), name="varad", surname="kulkarni", role="software engineer")
+
+
