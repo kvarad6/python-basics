@@ -105,6 +105,8 @@ def displayInfo(name, age)
 
 can also be written as:
 displayInfo = logger(timer(displayInfo("bob", 15)))
+
+so, in case of logger function -> originalFunction is no longer the "displayInfo" but the "wrapper" function returned by the timer function
 """
         
         
