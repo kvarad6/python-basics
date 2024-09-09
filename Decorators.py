@@ -1,3 +1,6 @@
+
+#Class as a decorator:
+
 class DecoratorClass:
     def __init__(self, originalFunction):
         self.originalFunction = originalFunction
