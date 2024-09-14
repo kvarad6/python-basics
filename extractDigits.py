@@ -1,5 +1,6 @@
 # Program to extract digits from a given string
 
+#---------- Approach 1 ----------#
 strnum = "1r3h4kjs4hj2w"
 
 nums = ""
@@ -13,3 +14,14 @@ print(nums)
 
 #method 2:
 #also can be solved using join, filter and lambda | pending
+
+#-------- Approach 2 ---------#
+testString = "wef2342dwe"
+
+import re
+
+result = re.findall('\d', testString)
+
+print(result)
+
+
