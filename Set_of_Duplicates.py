@@ -10,7 +10,7 @@ print(set([num for num in lst if lst.count(num)>1]))
 #more readble way | using counter (from collections)
 
 from collections import Counter
-
+#Counter will creates a frequency dict by its own
 count = Counter(lst)
 print(count)  #-> Counter({3: 2, 6: 2, 1: 1, 2: 1, 4: 1, 5: 1})
 print(count.items()) #-> dict_items([(1, 1), (2, 1), (3, 2), (4, 1), (5, 1), (6, 2)])
