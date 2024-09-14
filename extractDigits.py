@@ -24,4 +24,10 @@ result = re.findall('\d', testString)
 
 print(result)
 
+#------- Approach 3 ---------#
+testString = "wef2342dwe"
+
+resultList = filter(str.isdigit, testString)
+print("".join(resultList)) #2342
+
 
